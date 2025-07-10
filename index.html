@@ -1,58 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chandra Sekhar Reddy Portfolio</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="view-port" content="width=device-width initial-scale=1.0">
+        <title>Career Recommender</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <h2>Career Recommender</h2>
+        <form id="skill-form">
+            <input type="text" name="name" placeholder="Your Name" required/>
+            <input type="text" name="college_name" placeholder="Your College Name" required/>
+            <label>Java:</label>
+            <input type="range" name="java" min="0" max="10" value="5"/>
+            <label>Python:</label>
+            <input type="range" name="python" min="0" max="10" value="5"/>
+            <label>DSA:</label>
+            <input type="range" name="dsa" min="0" max="10" value="5"/>
+            <label>Web Developement</label>
+            <input type="range" name="webdevelopement" min="0" max="10" value="5"/>
+            <button type="submit">Get Recommendation</button>
+        </form>
 
-    <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
-    <header>
-        <h1>Chandra Sekhar Reddy</h1>
-        <nav>
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    
-    <section id="hero">
-        <h2>Hi, I am student Web develpoer</h2>
-        <p>I love buliding clean and responsive webpages.</p>
-    </section>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am currently learning web development and passionate about creating beautiful and user-friendly websites. I have a basic understanding of HTML,CSS,JavaScript.</p>
-    </section>
-    
-    <section id="Projects">
-        <h2>Projects</h2>
-
-        <div class="project">
-            <h3>Portfolio Website</h3>
-            <p>A simple reponsive portfolio website to showcase my skills and projects.</p>
+        <div id="result">
+            <script src="script.js"></script>
         </div>
-
-        <div class="project">
-            <h3>Landing Page</h3>
-            <p>A basic landing page bulit using HTML and CSS for layout practice.</p>
-        </div>
-
-    </section>
-
-    <section id="Contact">
-        <h2>Contact</h2>
-        <p>Email: chandhureddy9133@gmail.com</p>
-        <p><a href="https://github.com/chandra-dev">GitHub</a> | <a href="https://linkedin.com/in/chandra-dev">LinkedIn</a></p>
-    </section>
-
-    <footer>
-        <p>&COPY; 2025 Chandra Sekhar Reddy</p>
-    </footer>
-</body>
+    </body>
 </html>
