@@ -58,5 +58,5 @@ Export history as a CSV or JSON file.
 👨‍💻 Author
 Chandra Sekhar Reddy
 📧 chandhureddy9133@gmail.com
-🔗 GitHub Profile
+🔗 https://github.com/chandra9133
 
